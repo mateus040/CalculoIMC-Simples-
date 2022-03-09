@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CalculoIMC.MainPage">
+
+    <StackLayout>
+        <Label Text="Digite seu Peso: " />
+        <Entry x:Name="txt_peso" />
+
+        <Label Text="Digite sua Altura: " />
+        <Entry x:Name="txt_altura" />
+
+        
+        <Button Text="Calcular" Clicked="Button_Clicked" />
+    </StackLayout>
+
+</ContentPage>
